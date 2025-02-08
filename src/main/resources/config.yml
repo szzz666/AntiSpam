@@ -1,0 +1,6 @@
+reloadCommand: "asreload"
+cooldownTicks: 120
+maxAttempts: 3
+maxLength: 100
+messageTooSpam: "请不要刷屏!"
+messageTooLong: "消息过长，请限制在 %maxLength% 字以内"

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="AntiSpam">
+    <output-path>$PROJECT_DIR$/../TestServer/plugins</output-path>
+    <root id="archive" name="AntiSpam.jar">
+      <element id="module-output" name="AntiSpam" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/banana-2.1.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
