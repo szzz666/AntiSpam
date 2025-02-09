@@ -47,6 +47,7 @@ public class Listeners implements Listener {
                 if (messageCount > ec.getInt("maxAttempts")) {
                     event.setCancelled(true);
                     player.sendMessage(ec.getString("messageTooSpam"));
+                    lastMessageTicks.put(playerName, currentTick);
                     return;
                 }
             } else {

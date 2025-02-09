@@ -35,9 +35,9 @@ public class AntiSpamMain extends PluginBase {
     @Override
     public void onEnable() {
         //注册监听器
-        this.getServer().getPluginManager().registerEvents(new Listeners(), this);
+        nkServer.getPluginManager().registerEvents(new Listeners(), this);
         //注册命令
-        this.getServer().getCommandMap().register(this.getName(), new MyCommand());
+        nkServer.getCommandMap().register(this.getName(), new MyCommand());
         pluginNameLineConsole();
         nkConsole("&b" + plugin.getName() + "插件开启");
         nkConsole("&c" + plugin.getName() + "如果遇到任何bug，请加入Q群进行反馈：894279534", 1);
