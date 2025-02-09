@@ -1,6 +1,6 @@
 name: AntiSpam
 main: top.szzz666.AntiSpam.AntiSpamMain
-version: "1.0.1"
+version: "1.0.2"
 author: szzz666
 api: ["1.0.0"]
 description: AntiSpam plugin
